@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		63C12B3A213EA1EC00A1475F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12B39213EA1EC00A1475F /* AppDelegate.swift */; };
-		63C12B3C213EA1EC00A1475F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12B3B213EA1EC00A1475F /* ViewController.swift */; };
 		63C12B3F213EA1EC00A1475F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C12B3D213EA1EC00A1475F /* Main.storyboard */; };
 		63C12B41213EA1ED00A1475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C12B40213EA1ED00A1475F /* Assets.xcassets */; };
 		63C12B44213EA1ED00A1475F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C12B42213EA1ED00A1475F /* LaunchScreen.storyboard */; };
+		63C12B4C213FF18D00A1475F /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12B4B213FF18D00A1475F /* TableauController.swift */; };
+		63C12B4E2141331400A1475F /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12B4D2141331400A1475F /* Chanson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63C12B36213EA1EC00A1475F /* LecteurYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LecteurYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C12B39213EA1EC00A1475F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63C12B3B213EA1EC00A1475F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63C12B3E213EA1EC00A1475F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C12B40213EA1ED00A1475F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C12B43213EA1ED00A1475F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C12B45213EA1ED00A1475F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C12B4B213FF18D00A1475F /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
+		63C12B4D2141331400A1475F /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				63C12B39213EA1EC00A1475F /* AppDelegate.swift */,
-				63C12B3B213EA1EC00A1475F /* ViewController.swift */,
 				63C12B3D213EA1EC00A1475F /* Main.storyboard */,
 				63C12B40213EA1ED00A1475F /* Assets.xcassets */,
 				63C12B42213EA1ED00A1475F /* LaunchScreen.storyboard */,
 				63C12B45213EA1ED00A1475F /* Info.plist */,
+				63C12B4B213FF18D00A1475F /* TableauController.swift */,
+				63C12B4D2141331400A1475F /* Chanson.swift */,
 			);
 			path = LecteurYoutube;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C12B3C213EA1EC00A1475F /* ViewController.swift in Sources */,
+				63C12B4C213FF18D00A1475F /* TableauController.swift in Sources */,
 				63C12B3A213EA1EC00A1475F /* AppDelegate.swift in Sources */,
+				63C12B4E2141331400A1475F /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
