@@ -26,7 +26,7 @@ class Chanson {
     }
     
     var videoUrl:String {
-        return: _baseUrlVideo + _code
+        return _baseUrlVideo + _code
     }
     
     var miniatureUrl: String {
