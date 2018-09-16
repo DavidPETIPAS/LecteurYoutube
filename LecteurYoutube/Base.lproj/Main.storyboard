@@ -91,9 +91,29 @@
                     <view key="view" contentMode="scaleToFill" id="ZKi-xU-Duq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2MV-8k-GNl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2MV-8k-GNl" firstAttribute="leading" secondItem="g6g-0O-Nte" secondAttribute="leading" id="3OV-bG-nHD"/>
+                            <constraint firstItem="2MV-8k-GNl" firstAttribute="bottom" secondItem="g6g-0O-Nte" secondAttribute="bottom" id="BNF-lJ-poO"/>
+                            <constraint firstItem="2MV-8k-GNl" firstAttribute="trailing" secondItem="g6g-0O-Nte" secondAttribute="trailing" id="Gjh-o5-ttN"/>
+                            <constraint firstItem="2MV-8k-GNl" firstAttribute="top" secondItem="g6g-0O-Nte" secondAttribute="top" id="ZZB-Q4-jn9"/>
+                            <constraint firstItem="g6g-0O-Nte" firstAttribute="bottom" secondItem="2MV-8k-GNl" secondAttribute="bottom" id="crs-VN-Kfc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="g6g-0O-Nte"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="2MV-8k-GNl" id="kuc-BH-X0t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sYO-rc-ied" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
